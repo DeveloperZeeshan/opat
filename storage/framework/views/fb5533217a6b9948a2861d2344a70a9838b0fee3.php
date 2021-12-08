@@ -1,0 +1,3 @@
+<div id="objective" class="data col-md-5">
+    <p>Ans. <textarea class="form-control" name="question[<?php echo e($Questions_no); ?>][Ans]" <?php if(isset($qustion) && $qustion->question_type == 'free_text' ): ?> value="<?php echo e($qustion->correct_answer); ?>" <?php endif; ?>  id=""> <?php if(isset($qustion) && $qustion->question_type == 'free_text' ): ?><?php echo e($qustion->correct_answer); ?> <?php endif; ?> </textarea>
+</div><?php /**PATH C:\wamp64\www\opatlive\opatlive\resources\views/website/ajax/assesment_type_freetext_ajax.blade.php ENDPATH**/ ?>
